@@ -36,11 +36,6 @@ import com.heyzap.sdk.ads.WrappedOfferWall;
 public class CDVOfferWall extends CDVHeyzapAbstractPlugin {
     private static final String TAG = "CDVOfferWall";
 
-    @Override
-    public void setListener(CDVListener listener) {
-        WrappedOfferWall.setOnStatusListener(listener);
-    }
-
     public void display(final JSONArray args, final CallbackContext callbackContext) {
         String tag = args.optString(0);
 
@@ -52,5 +47,12 @@ public class CDVOfferWall extends CDVHeyzapAbstractPlugin {
 
         callbackContext.success();
     }
+
+    @Override
+    public void setListener(CDVListener listener) {
+        WrappedOfferWall.setOnStatusListener(listener);
+    }
+
+
 
 }
