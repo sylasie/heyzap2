@@ -153,9 +153,9 @@
     <!-- / Heyzap SDK -->
 
     <!-- Adapters -->
-    <source-file src="src/android/com/heyzap/cordova/ads/CDVOfferWall.java" target-dir="src/com/heyzap/cordova/ads" />
     <source-file src="src/android/com/heyzap/cordova/ads/CDVHeyzapAbstractPlugin.java" target-dir="src/com/heyzap/cordova/ads" />
     <source-file src="src/android/com/heyzap/cordova/ads/CDVHeyzapAds.java" target-dir="src/com/heyzap/cordova/ads" />
+    <source-file src="src/android/com/heyzap/cordova/ads/CDVOfferWall.java" target-dir="src/com/heyzap/cordova/ads" />
     <source-file src="src/android/com/heyzap/cordova/ads/CDVIncentivizedAd.java" target-dir="src/com/heyzap/cordova/ads" />
     <source-file src="src/android/com/heyzap/cordova/ads/CDVInterstitialAd.java" target-dir="src/com/heyzap/cordova/ads" />
     <source-file src="src/android/com/heyzap/cordova/ads/CDVBannerAd.java" target-dir="src/com/heyzap/cordova/ads" />
