@@ -33,8 +33,8 @@ import com.fyber.ads.ofw.OfferWallActivity;
 
 import com.heyzap.sdk.ads.WrappedOfferWall;
 
-public class CDVOfferWallActivity extends CDVHeyzapAbstractPlugin {
-    private static final String TAG = "CDVOfferWallActivity";
+public class CDVOfferWall extends CDVHeyzapAbstractPlugin {
+    private static final String TAG = "CDVOfferWall";
 
     @Override
     public void setListener(CDVListener listener) {
