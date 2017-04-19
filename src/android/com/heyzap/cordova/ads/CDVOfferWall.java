@@ -1,4 +1,4 @@
-//  CDVIncentivizedAd.java
+//  CDVOfferWal.java
 //
 //  Copyright 2015 Heyzap, Inc. All Rights Reserved
 //

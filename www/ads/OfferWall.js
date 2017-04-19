@@ -1,4 +1,4 @@
-//  InterstitialAd.js
+//  OfferWall.js
 //
 //  Copyright 2015 Heyzap, Inc. All Rights Reserved
 //
@@ -30,7 +30,7 @@
   var Common = cordova.require("heyzap-cordova.Common");
 
   /**
-   * Object responsible for handling Interstitial Ads
+   * Object responsible for handling Offer Wall
    * @type {Object}
    *
    * @memberOf HeyzapAds
@@ -48,8 +48,7 @@
     },
 
     /**
-     * Fetch an interstitial ad
-     * @param  {!string} [tag] tag
+     * Fetch an offer wall
      *
      * @return {Promise} An ES-6 style promise if the native call succeeded or failed.
      * @throws {TypeError} If the above parameters do not match their types
@@ -61,7 +60,7 @@
     },
 
     /**
-     * Add an event listener for Interstitial Ads
+     * Add an event listener for Offer Wall
      *
      * @param {string} type Name of event
      * @param {function} listener Event listener
