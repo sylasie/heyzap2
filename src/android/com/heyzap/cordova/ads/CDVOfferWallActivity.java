@@ -30,20 +30,14 @@ import org.apache.cordova.CallbackContext;
 
 import org.json.JSONArray;
 
-import com.heyzap.sdk.ads.WrappedOfferwall;
+import com.heyzap.sdk.ads.WrappedOfferWall;
 
 public class CDVOfferWallActivity extends CDVHeyzapAbstractPlugin {
     private static final String TAG = "CDVOfferWallActivity";
 
     public void display(final JSONArray args, final CallbackContext callbackContext) {
         String tag = args.optString(0);
-        CDVOfferWallActivity.display();
-
-//        if (tag.isEmpty()) {
-//            CDVOfferWallActivity.display();
-//        } else {
-//            CDVOfferWallActivity.display(tag);
-//        }
+        CDVOfferWallActivity.display(cordova.getActivity());
 
         callbackContext.success();
     }
@@ -61,26 +55,6 @@ public class CDVOfferWallActivity extends CDVHeyzapAbstractPlugin {
     @Override
     public void setListener(CDVListener listener) {
         CDVOfferWallActivity.setOnStatusListener(listener);
-//        IncentivizedAd.setOnIncentiveResultListener(listener);
     }
 
-//    private void displayIfAvailable(final CallbackContext callbackContext) {
-//        if (IncentivizedAd.isAvailable()) {
-//            IncentivizedAd.display(cordova.getActivity());
-//            callbackContext.success();
-//
-//        } else {
-//            callbackContext.error("Incentivized ad is not available.");
-//        }
-//    }
-//
-//    private void displayIfAvailable(final CallbackContext callbackContext, String tag) {
-//        if (IncentivizedAd.isAvailable(tag)) {
-//            IncentivizedAd.display(cordova.getActivity(), tag);
-//            callbackContext.success();
-//
-//        } else {
-//            callbackContext.error("Incentivized ad is not available");
-//        }
-//    }
 }
