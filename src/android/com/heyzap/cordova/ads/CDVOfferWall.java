@@ -36,8 +36,8 @@ import com.heyzap.sdk.ads.WrappedOfferWall;
 public class CDVOfferWall extends CDVHeyzapAbstractPlugin {
     private static final String TAG = "CDVOfferWall";
 
-    public void display(final JSONArray args, final CallbackContext callbackContext) {
-        String tag = args.optString(0);
+    public void display(final CallbackContext callbackContext) {
+//        String tag = args.optString(0);
 
         WrappedOfferWall.display(cordova.getActivity());
 
