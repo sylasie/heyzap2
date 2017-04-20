@@ -180,7 +180,7 @@
 
     IncentivizedAd: cordova.require('heyzap-cordova.ads.IncentivizedAd'),
 
-    WrappedOfferWall : cordova.require('heyzap-cordova.ads.WrappedOfferWall'),
+    OfferWall : cordova.require('heyzap-cordova.ads.OfferWall'),
 
     BannerAd: cordova.require('heyzap-cordova.ads.BannerAd')
   };
