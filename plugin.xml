@@ -22,6 +22,7 @@
   <js-module src="www/ads/InterstitialAd.js" name="ads.InterstitialAd"></js-module>
   <js-module src="www/ads/IncentivizedAd.js" name="ads.IncentivizedAd"></js-module>
   <js-module src="www/ads/BannerAd.js" name="ads.BannerAd"></js-module>
+  <js-module src="www/ads/WrappedOfferWall.js" name="ads.WrappedOfferWall"></js-module>
 
   <js-module src="www/Common.js" name="Common"></js-module>
   <js-module src="www/Promise.js" name="Promise"></js-module>
