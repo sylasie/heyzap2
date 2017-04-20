@@ -26,7 +26,7 @@
 (function() {
   "use strict";
 
-  var SERVICE = "WrappedOfferWall";
+  var SERVICE = "OfferWall";
   var Common = cordova.require("heyzap-cordova.Common");
 
   /**
@@ -35,7 +35,7 @@
    *
    * @memberOf HeyzapAds
    */
-  var WrappedOfferWall = {
+  var OfferWall = {
     Events: {
       SHOW: 'show',
       HIDE: 'hide',
@@ -70,7 +70,7 @@
     addEventListener: Common.partial(Common.addEventListener, SERVICE)
   };
 
-  Common.registerEventsForService(SERVICE, WrappedOfferWall.Events, false);
+  Common.registerEventsForService(SERVICE, OfferWall.Events, false);
 
-  module.exports = WrappedOfferWall;
+  module.exports = OfferWall;
 })();
