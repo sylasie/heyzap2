@@ -53,7 +53,7 @@
      * @return {Promise} An ES-6 style promise if the native call succeeded or failed.
      * @throws {TypeError} If the above parameters do not match their types
      */
-    fetch: function display() {
+    display: function display() {
 
 
       return Common.exec(SERVICE, 'display');
