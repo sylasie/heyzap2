@@ -29,20 +29,20 @@ import android.app.Activity;
 import org.apache.cordova.CallbackContext;
 
 import org.json.JSONArray;
-import com.fyber.ads.ofw.OfferWallActivity;
+//import com.fyber.ads.ofw.OfferWallActivity;
 
 import com.heyzap.sdk.ads.WrappedOfferWall;
 
 public class CDVOfferWall extends CDVHeyzapAbstractPlugin {
     private static final String TAG = "CDVOfferWall";
 
-    public void display(final CallbackContext callbackContext) {
+    public void display(CallbackContext callbackContext) {
 //        String tag = args.optString(0);
 
         WrappedOfferWall.display(cordova.getActivity());
 
 
-        System.out.println(cordova.getActivity());
+//        System.out.println(cordova.getActivity());
 //        WrappedOfferWall.display(cordova.getActivity());
 
         callbackContext.success();
